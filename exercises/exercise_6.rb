@@ -14,3 +14,6 @@ puts "----------"
 @store2.employees.create(first_name: "Jeremy", last_name: "Ruffalo", hourly_rate: 101)
 @store2.employees.create(first_name: "Maria", last_name: "Smith", hourly_rate: 55)
 @store2.employees.create(first_name: "Icabob", last_name: "Crane", hourly_rate: 25)
+
+puts "There are #{@store1.employees.count(:all)} employees in the database"
+puts "There are #{@store2.employees.count(:all)} employees in the database"

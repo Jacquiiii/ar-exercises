@@ -28,4 +28,9 @@ store = Store.new do |s|
   s.save
 end
 
+# store = Store.new do |s|
+#   s.name = "Victoria"
+#   s.save
+# end
+
 puts "There are #{Store.count(:all)} stores in the database"
